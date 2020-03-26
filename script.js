@@ -60,6 +60,8 @@ $('document').ready(function(){
         $('.popup-container').click(function(event){
             if (event.target == this) {
                 $(this).hide();
+
+                enableScroll();
             }
         })
 
